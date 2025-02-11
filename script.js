@@ -156,7 +156,6 @@ function init() {
   const value = localStorage.getItem("dark-mode");
 
   if(value === null) {
-    console.log("null k andar");
     localStorage.setItem("dark-mode", darkMode);
     lightModeProperties();
   }
